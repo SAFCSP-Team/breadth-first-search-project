@@ -13,6 +13,9 @@ public class Breadthfirstsearch {
     }
 
     public static void breadthFirstSearch(Node root) {
+        if (root == null) {
+            return;
+        }
 
            /* write your code here */
     }
