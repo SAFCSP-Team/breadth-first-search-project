@@ -10,7 +10,7 @@ In this project, we will cover the fundamentals of a Breadth-first search, and h
 ## Problem
 
 
-Create `breadthFirstSearch` function to perform a breadth-first traversal of a binary tree.
+Create `breadthFirstSearch` function to perform a breadth-first search of a binary tree.
 
 ## Implementation
 
