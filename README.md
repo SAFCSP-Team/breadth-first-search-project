@@ -16,11 +16,19 @@ Create `breadthFirstSearch` function to perform a breadth-first traversal of a b
 
 * Create a LinkedList named `bfsobj` to store the nodes that must be processed during the traversal.
 * The root node is added to the `bfsobj` using the add method. This marks the start of the traversal.
-* Create a loop that continues until the `bfsobj` is empty; the condition `!bfsobj.isEmpty()` is used to check if there are any remaining nodes to process.
+* Loop the queue until it's empty. Use the condition `!queue.isEmpty()` to stop the loop, and check if there are any remaining nodes to process.
 * Within the loop, the first node in the `bfsobj` is dequeued using the poll method, which both returns and removes the head of the queue. The dequeued node is assigned to the current variable.
 * If the current node has a left child `current.left != null`, it is enqueued by adding it to the `bfsobj` using the add method. This ensures that the left child will be processed in the subsequent iterations.
 * If the current node has a right child `current.right` is not null, it is enqueued by adding it to the `bfsobj`.
 * Repeats until all nodes have been processed, and the `bfsobj` becomes empty.
+
+the output 
+```java
+Breadth-First Search:
+1 2 3 4 5 6 7
+```
+
+
   
 ```java
 public class Breadthfirstsearch {
